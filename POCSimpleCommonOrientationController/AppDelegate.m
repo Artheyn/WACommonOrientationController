@@ -26,8 +26,9 @@
     // Override point for customization after application launch.
     
     // If we want to test directly the CommonOrientationController
-//    self.viewControllerCommon = [[[HomeCommonOrientationViewController alloc] initWithBaseName:@"Home" bundle:nil] autorelease];
 //    self.window.rootViewController = self.viewControllerCommon;
+    
+    self.viewControllerCommon = [[[HomeCommonOrientationViewController alloc] initWithBaseName:@"Home" bundle:nil] autorelease];
 
     // If we want to test it in a navigation controller.
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:self.viewControllerCommon];
