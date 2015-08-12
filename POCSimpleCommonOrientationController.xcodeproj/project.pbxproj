@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64160FF3165E1AC300C2F4E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64160FF2165E1AC300C2F4E9 /* UIKit.framework */; };
+		64160FF5165E1AC300C2F4E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64160FF4165E1AC300C2F4E9 /* Foundation.framework */; };
+		64160FF7165E1AC300C2F4E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64160FF6165E1AC300C2F4E9 /* CoreGraphics.framework */; };
+		64160FFD165E1AC300C2F4E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64160FFB165E1AC300C2F4E9 /* InfoPlist.strings */; };
+		64160FFF165E1AC300C2F4E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64160FFE165E1AC300C2F4E9 /* main.m */; };
+		64161003165E1AC400C2F4E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64161002165E1AC400C2F4E9 /* AppDelegate.m */; };
+		64161005165E1AC400C2F4E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 64161004165E1AC400C2F4E9 /* Default.png */; };
+		64161007165E1AC400C2F4E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64161006165E1AC400C2F4E9 /* Default@2x.png */; };
+		64161009165E1AC400C2F4E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64161008165E1AC400C2F4E9 /* Default-568h@2x.png */; };
+		64161018165E1B6100C2F4E9 /* CommonOrientationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64161016165E1B6000C2F4E9 /* CommonOrientationViewController.m */; };
+		64161019165E1B6100C2F4E9 /* CommonOrientationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64161017165E1B6000C2F4E9 /* CommonOrientationViewController.xib */; };
+		64161029165E720800C2F4E9 /* HomeCommonOrientationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64161028165E720800C2F4E9 /* HomeCommonOrientationViewController.m */; };
+		6416102D165E724400C2F4E9 /* HomePortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6416102B165E724400C2F4E9 /* HomePortraitViewController.m */; };
+		6416102E165E724400C2F4E9 /* HomePortraitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6416102C165E724400C2F4E9 /* HomePortraitViewController.xib */; };
+		64161032165E725300C2F4E9 /* HomeLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64161030165E725300C2F4E9 /* HomeLandscapeViewController.m */; };
+		64161033165E725300C2F4E9 /* HomeLandscapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64161031165E725300C2F4E9 /* HomeLandscapeViewController.xib */; };
+		64330E32165F7B990074AEF1 /* FirstPushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64330E30165F7B990074AEF1 /* FirstPushedViewController.m */; };
+		64330E33165F7B990074AEF1 /* FirstPushedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64330E31165F7B990074AEF1 /* FirstPushedViewController.xib */; };
+		64330E39165F7C510074AEF1 /* CommonPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64330E38165F7C510074AEF1 /* CommonPortraitViewController.m */; };
+		64330E3C165F7C640074AEF1 /* CommonLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64330E3B165F7C640074AEF1 /* CommonLandscapeViewController.m */; };
+		64330E40165FD9710074AEF1 /* SecondPushedCommonOrientationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64330E3F165FD9710074AEF1 /* SecondPushedCommonOrientationViewController.m */; };
+		64330E44165FD9AE0074AEF1 /* SecondPushedPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64330E42165FD9AE0074AEF1 /* SecondPushedPortraitViewController.m */; };
+		64330E45165FD9AE0074AEF1 /* SecondPushedPortraitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64330E43165FD9AE0074AEF1 /* SecondPushedPortraitViewController.xib */; };
+		64330E49165FD9BE0074AEF1 /* SecondPushedLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64330E47165FD9BE0074AEF1 /* SecondPushedLandscapeViewController.m */; };
+		64330E4A165FD9BE0074AEF1 /* SecondPushedLandscapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64330E48165FD9BE0074AEF1 /* SecondPushedLandscapeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64160FEE165E1AC300C2F4E9 /* POCSimpleCommonOrientationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCSimpleCommonOrientationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64160FF2165E1AC300C2F4E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64160FF4165E1AC300C2F4E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64160FF6165E1AC300C2F4E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64160FFA165E1AC300C2F4E9 /* POCSimpleCommonOrientationController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POCSimpleCommonOrientationController-Info.plist"; sourceTree = "<group>"; };
+		64160FFC165E1AC300C2F4E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64160FFE165E1AC300C2F4E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64161000165E1AC400C2F4E9 /* POCSimpleCommonOrientationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POCSimpleCommonOrientationController-Prefix.pch"; sourceTree = "<group>"; };
+		64161001165E1AC400C2F4E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64161002165E1AC400C2F4E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64161004165E1AC400C2F4E9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		64161006165E1AC400C2F4E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		64161008165E1AC400C2F4E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		64161015165E1B6000C2F4E9 /* CommonOrientationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonOrientationViewController.h; sourceTree = "<group>"; };
+		64161016165E1B6000C2F4E9 /* CommonOrientationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonOrientationViewController.m; sourceTree = "<group>"; };
+		64161017165E1B6000C2F4E9 /* CommonOrientationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonOrientationViewController.xib; sourceTree = "<group>"; };
+		64161027165E720800C2F4E9 /* HomeCommonOrientationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCommonOrientationViewController.h; sourceTree = "<group>"; };
+		64161028165E720800C2F4E9 /* HomeCommonOrientationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCommonOrientationViewController.m; sourceTree = "<group>"; };
+		6416102A165E724400C2F4E9 /* HomePortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePortraitViewController.h; sourceTree = "<group>"; };
+		6416102B165E724400C2F4E9 /* HomePortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePortraitViewController.m; sourceTree = "<group>"; };
+		6416102C165E724400C2F4E9 /* HomePortraitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePortraitViewController.xib; sourceTree = "<group>"; };
+		6416102F165E725300C2F4E9 /* HomeLandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeLandscapeViewController.h; sourceTree = "<group>"; };
+		64161030165E725300C2F4E9 /* HomeLandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeLandscapeViewController.m; sourceTree = "<group>"; };
+		64161031165E725300C2F4E9 /* HomeLandscapeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeLandscapeViewController.xib; sourceTree = "<group>"; };
+		64330E2F165F7B990074AEF1 /* FirstPushedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPushedViewController.h; sourceTree = "<group>"; };
+		64330E30165F7B990074AEF1 /* FirstPushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPushedViewController.m; sourceTree = "<group>"; };
+		64330E31165F7B990074AEF1 /* FirstPushedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstPushedViewController.xib; sourceTree = "<group>"; };
+		64330E37165F7C510074AEF1 /* CommonPortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonPortraitViewController.h; sourceTree = "<group>"; };
+		64330E38165F7C510074AEF1 /* CommonPortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonPortraitViewController.m; sourceTree = "<group>"; };
+		64330E3A165F7C640074AEF1 /* CommonLandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLandscapeViewController.h; sourceTree = "<group>"; };
+		64330E3B165F7C640074AEF1 /* CommonLandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonLandscapeViewController.m; sourceTree = "<group>"; };
+		64330E3E165FD9710074AEF1 /* SecondPushedCommonOrientationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPushedCommonOrientationViewController.h; sourceTree = "<group>"; };
+		64330E3F165FD9710074AEF1 /* SecondPushedCommonOrientationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPushedCommonOrientationViewController.m; sourceTree = "<group>"; };
+		64330E41165FD9AE0074AEF1 /* SecondPushedPortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPushedPortraitViewController.h; sourceTree = "<group>"; };
+		64330E42165FD9AE0074AEF1 /* SecondPushedPortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPushedPortraitViewController.m; sourceTree = "<group>"; };
+		64330E43165FD9AE0074AEF1 /* SecondPushedPortraitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondPushedPortraitViewController.xib; sourceTree = "<group>"; };
+		64330E46165FD9BE0074AEF1 /* SecondPushedLandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPushedLandscapeViewController.h; sourceTree = "<group>"; };
+		64330E47165FD9BE0074AEF1 /* SecondPushedLandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPushedLandscapeViewController.m; sourceTree = "<group>"; };
+		64330E48165FD9BE0074AEF1 /* SecondPushedLandscapeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondPushedLandscapeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64160FEB165E1AC300C2F4E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64160FF3165E1AC300C2F4E9 /* UIKit.framework in Frameworks */,
+				64160FF5165E1AC300C2F4E9 /* Foundation.framework in Frameworks */,
+				64160FF7165E1AC300C2F4E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64160FE3165E1AC300C2F4E9 = {
+			isa = PBXGroup;
+			children = (
+				64160FF8165E1AC300C2F4E9 /* POCSimpleCommonOrientationController */,
+				64160FF1165E1AC300C2F4E9 /* Frameworks */,
+				64160FEF165E1AC300C2F4E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64160FEF165E1AC300C2F4E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64160FEE165E1AC300C2F4E9 /* POCSimpleCommonOrientationController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64160FF1165E1AC300C2F4E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64160FF2165E1AC300C2F4E9 /* UIKit.framework */,
+				64160FF4165E1AC300C2F4E9 /* Foundation.framework */,
+				64160FF6165E1AC300C2F4E9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64160FF8165E1AC300C2F4E9 /* POCSimpleCommonOrientationController */ = {
+			isa = PBXGroup;
+			children = (
+				64330E35165F7C040074AEF1 /* AppDelegate */,
+				64330E34165F7BF70074AEF1 /* Common */,
+				64161034165E725600C2F4E9 /* Home */,
+				F461FF1D1B7BE44E002CAFF0 /* PushedControllers */,
+				64160FF9165E1AC300C2F4E9 /* Supporting Files */,
+			);
+			path = POCSimpleCommonOrientationController;
+			sourceTree = "<group>";
+		};
+		64160FF9165E1AC300C2F4E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64160FFA165E1AC300C2F4E9 /* POCSimpleCommonOrientationController-Info.plist */,
+				64160FFB165E1AC300C2F4E9 /* InfoPlist.strings */,
+				64160FFE165E1AC300C2F4E9 /* main.m */,
+				64161000165E1AC400C2F4E9 /* POCSimpleCommonOrientationController-Prefix.pch */,
+				64161004165E1AC400C2F4E9 /* Default.png */,
+				64161006165E1AC400C2F4E9 /* Default@2x.png */,
+				64161008165E1AC400C2F4E9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64161034165E725600C2F4E9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				64161027165E720800C2F4E9 /* HomeCommonOrientationViewController.h */,
+				64161028165E720800C2F4E9 /* HomeCommonOrientationViewController.m */,
+				6416102A165E724400C2F4E9 /* HomePortraitViewController.h */,
+				6416102B165E724400C2F4E9 /* HomePortraitViewController.m */,
+				6416102C165E724400C2F4E9 /* HomePortraitViewController.xib */,
+				6416102F165E725300C2F4E9 /* HomeLandscapeViewController.h */,
+				64161030165E725300C2F4E9 /* HomeLandscapeViewController.m */,
+				64161031165E725300C2F4E9 /* HomeLandscapeViewController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		64330E2D165F7B740074AEF1 /* FirstPushed */ = {
+			isa = PBXGroup;
+			children = (
+				64330E2F165F7B990074AEF1 /* FirstPushedViewController.h */,
+				64330E30165F7B990074AEF1 /* FirstPushedViewController.m */,
+				64330E31165F7B990074AEF1 /* FirstPushedViewController.xib */,
+			);
+			name = FirstPushed;
+			sourceTree = "<group>";
+		};
+		64330E34165F7BF70074AEF1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				64161015165E1B6000C2F4E9 /* CommonOrientationViewController.h */,
+				64161016165E1B6000C2F4E9 /* CommonOrientationViewController.m */,
+				64161017165E1B6000C2F4E9 /* CommonOrientationViewController.xib */,
+				64330E37165F7C510074AEF1 /* CommonPortraitViewController.h */,
+				64330E38165F7C510074AEF1 /* CommonPortraitViewController.m */,
+				64330E3A165F7C640074AEF1 /* CommonLandscapeViewController.h */,
+				64330E3B165F7C640074AEF1 /* CommonLandscapeViewController.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		64330E35165F7C040074AEF1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				64161001165E1AC400C2F4E9 /* AppDelegate.h */,
+				64161002165E1AC400C2F4E9 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		64330E3D165FD9370074AEF1 /* SecondPushed */ = {
+			isa = PBXGroup;
+			children = (
+				64330E3E165FD9710074AEF1 /* SecondPushedCommonOrientationViewController.h */,
+				64330E3F165FD9710074AEF1 /* SecondPushedCommonOrientationViewController.m */,
+				64330E41165FD9AE0074AEF1 /* SecondPushedPortraitViewController.h */,
+				64330E42165FD9AE0074AEF1 /* SecondPushedPortraitViewController.m */,
+				64330E43165FD9AE0074AEF1 /* SecondPushedPortraitViewController.xib */,
+				64330E46165FD9BE0074AEF1 /* SecondPushedLandscapeViewController.h */,
+				64330E47165FD9BE0074AEF1 /* SecondPushedLandscapeViewController.m */,
+				64330E48165FD9BE0074AEF1 /* SecondPushedLandscapeViewController.xib */,
+			);
+			name = SecondPushed;
+			sourceTree = "<group>";
+		};
+		F461FF1D1B7BE44E002CAFF0 /* PushedControllers */ = {
+			isa = PBXGroup;
+			children = (
+				64330E2D165F7B740074AEF1 /* FirstPushed */,
+				64330E3D165FD9370074AEF1 /* SecondPushed */,
+			);
+			name = PushedControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64160FED165E1AC300C2F4E9 /* POCSimpleCommonOrientationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64161012165E1AC400C2F4E9 /* Build configuration list for PBXNativeTarget "POCSimpleCommonOrientationController" */;
+			buildPhases = (
+				64160FEA165E1AC300C2F4E9 /* Sources */,
+				64160FEB165E1AC300C2F4E9 /* Frameworks */,
+				64160FEC165E1AC300C2F4E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POCSimpleCommonOrientationController;
+			productName = POCSimpleCommonOrientationController;
+			productReference = 64160FEE165E1AC300C2F4E9 /* POCSimpleCommonOrientationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64160FE5165E1AC300C2F4E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = SFR;
+			};
+			buildConfigurationList = 64160FE8165E1AC300C2F4E9 /* Build configuration list for PBXProject "POCSimpleCommonOrientationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64160FE3165E1AC300C2F4E9;
+			productRefGroup = 64160FEF165E1AC300C2F4E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64160FED165E1AC300C2F4E9 /* POCSimpleCommonOrientationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64160FEC165E1AC300C2F4E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64160FFD165E1AC300C2F4E9 /* InfoPlist.strings in Resources */,
+				64161005165E1AC400C2F4E9 /* Default.png in Resources */,
+				64161007165E1AC400C2F4E9 /* Default@2x.png in Resources */,
+				64161009165E1AC400C2F4E9 /* Default-568h@2x.png in Resources */,
+				64161019165E1B6100C2F4E9 /* CommonOrientationViewController.xib in Resources */,
+				6416102E165E724400C2F4E9 /* HomePortraitViewController.xib in Resources */,
+				64161033165E725300C2F4E9 /* HomeLandscapeViewController.xib in Resources */,
+				64330E33165F7B990074AEF1 /* FirstPushedViewController.xib in Resources */,
+				64330E45165FD9AE0074AEF1 /* SecondPushedPortraitViewController.xib in Resources */,
+				64330E4A165FD9BE0074AEF1 /* SecondPushedLandscapeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64160FEA165E1AC300C2F4E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64160FFF165E1AC300C2F4E9 /* main.m in Sources */,
+				64161003165E1AC400C2F4E9 /* AppDelegate.m in Sources */,
+				64161018165E1B6100C2F4E9 /* CommonOrientationViewController.m in Sources */,
+				64161029165E720800C2F4E9 /* HomeCommonOrientationViewController.m in Sources */,
+				6416102D165E724400C2F4E9 /* HomePortraitViewController.m in Sources */,
+				64161032165E725300C2F4E9 /* HomeLandscapeViewController.m in Sources */,
+				64330E32165F7B990074AEF1 /* FirstPushedViewController.m in Sources */,
+				64330E39165F7C510074AEF1 /* CommonPortraitViewController.m in Sources */,
+				64330E3C165F7C640074AEF1 /* CommonLandscapeViewController.m in Sources */,
+				64330E40165FD9710074AEF1 /* SecondPushedCommonOrientationViewController.m in Sources */,
+				64330E44165FD9AE0074AEF1 /* SecondPushedPortraitViewController.m in Sources */,
+				64330E49165FD9BE0074AEF1 /* SecondPushedLandscapeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64160FFB165E1AC300C2F4E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64160FFC165E1AC300C2F4E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64161010165E1AC400C2F4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64161011165E1AC400C2F4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64161013165E1AC400C2F4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POCSimpleCommonOrientationController/POCSimpleCommonOrientationController-Prefix.pch";
+				INFOPLIST_FILE = "POCSimpleCommonOrientationController/POCSimpleCommonOrientationController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64161014165E1AC400C2F4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POCSimpleCommonOrientationController/POCSimpleCommonOrientationController-Prefix.pch";
+				INFOPLIST_FILE = "POCSimpleCommonOrientationController/POCSimpleCommonOrientationController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64160FE8165E1AC300C2F4E9 /* Build configuration list for PBXProject "POCSimpleCommonOrientationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64161010165E1AC400C2F4E9 /* Debug */,
+				64161011165E1AC400C2F4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64161012165E1AC400C2F4E9 /* Build configuration list for PBXNativeTarget "POCSimpleCommonOrientationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64161013165E1AC400C2F4E9 /* Debug */,
+				64161014165E1AC400C2F4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64160FE5165E1AC300C2F4E9 /* Project object */;
+}
